@@ -15,7 +15,7 @@ unchecked.  The commands below verify and fix the issue if it is present.
 - Check the hard disk APM level using `hdparm -B`.
 - Create under `/etc/pm/` a `99-hdparm.sh` file under `power.d` and `sleep.d`
   with contents
-  ```
+  ```shell
   #!/bin/sh
   hdparm -B 255 /dev/sdX
   ```
