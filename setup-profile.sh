@@ -12,6 +12,7 @@ cp .zsh $HOME/
 cp .ssh/* $HOME/.ssh/
 echo "Configure SSH config with host information."
 chmod +x bin/*
+chmod -x bin/backup-config.conf
 cp bin/* $HOME/bin/
 echo "Configure executable files."
 
